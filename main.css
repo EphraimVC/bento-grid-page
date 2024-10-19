@@ -1,0 +1,76 @@
+:root {
+    --Purple-100: hsl(254, 88%, 90%);
+    --Purple-500: hsl(256, 67%, 59%);
+    --Yellow-100: hsl(31, 66%, 93%);
+    --Yellow-500: hsl(39, 100%, 71%);
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 7%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "dm-sans";
+    src: "/assets/fonts/DMSans-VariableFont_opsz,wght.ttf";
+}
+
+body {
+    font-family: dm-sans, sans-serif;
+    margin: 20px 15px;
+ */
+    background-color: rgb(242, 242, 242);
+    p {
+        font-size: 18px;
+    }
+}
+main {
+    display: block;
+}
+img {
+    width: 20rem;
+}
+.sub_item {
+    border-radius: 15px;
+    padding: 15px;
+    margin: 30px 0px;
+}
+
+.item1,
+.item5 {
+    background-color: var(--Purple-500);
+    color: var(--White);
+    .sp_text1 {
+        color: var(--Yellow-500);
+    }
+}
+.item4 {
+    background-color: var(--Purple-100);
+}
+
+.item2,
+.item6 {
+    background-color: var(--White);
+}
+
+.item3,
+.side_item2 {
+    background-color: var(--Yellow-500);
+}
+
+.side_item1 {
+    background-color: var(--Yellow-100);
+    .sp_text2 {
+        color: var(--Purple-500);
+    }
+}
+
+.heading_m {
+    font-size: 26px;
+    font-weight: 500;
+}
+.heading_l {
+    font-size: 45px;
+    font-weight: 500;
+}
